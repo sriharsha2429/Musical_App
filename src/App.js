@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import HomeScreen from './components/HomeComponent/HomeScreen';
+import SearchList from './components/SearchList';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import PlayList from './components/PlayList';
+import AddPlaylist from './components/AddPlayList';
+import ShuffleList from './components/ShuffleList';
 
 function App() {
+  //routing 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Route path="/AddPlaylist" component={AddPlaylist}/>
+    <Route path="/playlist" component={PlayList}/>
+    <Route path="/shufflelist" component={ShuffleList}/>
+    <Route path="/" exact={true} component={SearchList}/>
+    </BrowserRouter>
+    
   );
 }
 

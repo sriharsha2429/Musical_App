@@ -1,0 +1,4 @@
+//redux constants
+export const SONGS_LIST_REQUEST='SONGS_LIST_REQUEST';
+export const SONGS_LIST_SUCCESS='SONGS_LIST_SUCCESS';
+export const SONGS_LIST_FAIL='SONGS_LIST_FAIL';

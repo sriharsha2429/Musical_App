@@ -1,6 +1,7 @@
 {
-  "homepage": "http://sriharsha2429.github.io/VBI-MUSIC-",
-  "name": "vbi_music",
+  "homepage":"http://sriharsha2429.github.io/VBI_MUSIC",
+  "name":"vbi-music",
+  "proxy":"http://192.168.43.136:3000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +20,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

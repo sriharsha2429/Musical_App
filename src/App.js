@@ -12,7 +12,7 @@ function App() {
     <Route path="/AddPlaylist" component={AddPlaylist}/>
     <Route path="/playlist" component={PlayList}/>
     <Route path="/shufflelist" component={ShuffleList}/>
-    <Route path="/VBI_MUSIC" exact={true} component={SearchList}/>
+    <Route path="/VBI_MUSIC_APP" exact={true} component={SearchList}/>
     </BrowserRouter>
     
   );

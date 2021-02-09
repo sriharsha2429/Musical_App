@@ -1,7 +1,6 @@
 {
-  "homepage":"http://sriharsha2429.github.io/VBI_MUSIC_APP",
-  "name":"vbi-music",
-  "proxy":"http://192.168.43.136:3000",
+  "homepage":"http://sriharsha2429.github.io/Musical_App",
+  "name": "vbi_music",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

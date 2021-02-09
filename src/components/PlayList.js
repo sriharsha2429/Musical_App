@@ -65,7 +65,7 @@ function shuffleArray(array) {
        <div>
            <img src={Image} className="bg" />
            
-<Link to="/" style={{ display: "flex" }}>
+<Link to="/Musical_App" style={{ display: "flex" }}>
      <button style={{ marginLeft: "auto" }} type="button">
           All songs
      </button>

@@ -12,7 +12,7 @@ function App() {
     <Route path="/AddPlaylist" component={AddPlaylist}/>
     <Route path="/playlist" component={PlayList}/>
     <Route path="/shufflelist" component={ShuffleList}/>
-    <Route path="/" exact={true} component={SearchList}/>
+    <Route path="/Musical_App" exact={true} component={SearchList}/>
     </BrowserRouter>
     
   );

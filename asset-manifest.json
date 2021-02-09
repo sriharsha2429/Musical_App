@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Musical_App/static/css/main.e69c1fd5.chunk.css",
-    "main.js": "/Musical_App/static/js/main.7d6e98c8.chunk.js",
-    "main.js.map": "/Musical_App/static/js/main.7d6e98c8.chunk.js.map",
+    "main.js": "/Musical_App/static/js/main.50c7aaae.chunk.js",
+    "main.js.map": "/Musical_App/static/js/main.50c7aaae.chunk.js.map",
     "runtime-main.js": "/Musical_App/static/js/runtime-main.1027744b.js",
     "runtime-main.js.map": "/Musical_App/static/js/runtime-main.1027744b.js.map",
     "static/js/2.9cef51e8.chunk.js": "/Musical_App/static/js/2.9cef51e8.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1027744b.js",
     "static/js/2.9cef51e8.chunk.js",
     "static/css/main.e69c1fd5.chunk.css",
-    "static/js/main.7d6e98c8.chunk.js"
+    "static/js/main.50c7aaae.chunk.js"
   ]
 }
